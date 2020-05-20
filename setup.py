@@ -16,8 +16,6 @@ setup(name='easy_html_table',
       url="TBD",
       license="MIT",
       packages=['easy_html_table'],
-      entry_points={
-          'console_scripts': ['easy-html-table=easy_html_table.cli:main'], },
       python_requires='>=3.7',
       install_requires=[],
       package_data={'easy_html_table': ['config/*']},
